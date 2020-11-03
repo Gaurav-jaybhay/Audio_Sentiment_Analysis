@@ -3,7 +3,7 @@ import librosa
 import soundfile
 import numpy as np
 import pickle
-import js2py
+import requests
 
 
 def home(req):
@@ -36,8 +36,7 @@ def extract_feature(file_name, mfcc, chroma, mel):
 def recognise(pkl_filename):
     with open(pkl_filename, 'rb') as file:
         Emotion_Voice_Detection_Model = pickle.load(file)
-    eval_res, js_file = js2py.run_file('static/js/app.js')
-    audio = js_file.stopRecording()
+    audio = [] # need to import
     ans = []
     new_feature = extract_feature(audio, mfcc=True, chroma=True, mel=True)
     ans.append(new_feature)

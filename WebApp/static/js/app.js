@@ -16,6 +16,8 @@ recordButton.addEventListener("click", startRecording);
 stopButton.addEventListener("click", stopRecording);
 pauseButton.addEventListener("click", pauseRecording);
 
+
+
 function startRecording() {
 	console.log("recordButton clicked");
 
