@@ -1,0 +1,3 @@
+#!/home/dipanshu/projects/audio_sentiment/Speech_Emotion_Analysis/WebApp/venv/bin/python
+from numba.pycc import main
+main()
