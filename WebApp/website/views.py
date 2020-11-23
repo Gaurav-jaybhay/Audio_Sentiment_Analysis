@@ -1,17 +1,35 @@
 from django.shortcuts import render
+from django.http import HttpResponseRedirect
 import librosa
 import soundfile
 import numpy as np
 import pickle
-import requests
+from .form import AudioForm
 
 
-def home(req):
+def analyze(req):
     pkl_filename = "Emotion_Voice_Detection_Model.pkl"
-    # audio = record()
+    if req.method == "POST":
+        form = AudioForm(req.POST)
+        audio = form.audio
+        output = recognise(pkl_filename, audio)
+        if form.is_valid():
+            return HttpResponseRedirect(output)
+    else:
+        form = AudioForm()
+    return render(req, 'analyzePage.html', {'form': form})
 
-    output = recognise(pkl_filename)
-    return render(req, 'index.html', output)
+
+def record(req):
+    return render(req, 'record.html')
+
+
+def about(req):
+    return render(req, 'about.html')
+
+
+def menu(req):
+    return render(req, 'menu.html')
 
 
 def extract_feature(file_name, mfcc, chroma, mel):
@@ -33,10 +51,9 @@ def extract_feature(file_name, mfcc, chroma, mel):
     return result
 
 
-def recognise(pkl_filename):
+def recognise(pkl_filename, audio):
     with open(pkl_filename, 'rb') as file:
         Emotion_Voice_Detection_Model = pickle.load(file)
-    audio = [] # need to import
     ans = []
     new_feature = extract_feature(audio, mfcc=True, chroma=True, mel=True)
     ans.append(new_feature)

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>AudioSentimentAnalysis</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    {% include "menu.html" with active_tab='Analyze' %}
+</head>
+<body>
+<form method="post">
+    {% csrf_token %}
+{#    Audio File: <input type="file" name="audio_file">#}
+{#    <input type="submit" name="submit_button" value="Run">#}
+    {{ form }}
+    <input type="submit" name="submit_button" value="Submit">
+</form>
+<p>{{ output }}</p>
+
+
+
+</body>
+</html>
