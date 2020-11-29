@@ -22,9 +22,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '(3urs5l1upo*@!0i98lorg1mf6q_95e9(1ckoz0+99ptynba*0'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['analyseaudiosentiment.herokuapp.com', '127.0.0.1']
 
 # Application definition
 
