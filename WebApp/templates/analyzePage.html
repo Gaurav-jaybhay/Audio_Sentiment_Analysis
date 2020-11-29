@@ -6,16 +6,12 @@
     {% include "menu.html" with active_tab='Analyze' %}
 </head>
 <body>
-<form method="post">
+<h1>Select audio for analysing</h1>
+<form class="form-flex" method="post" enctype="multipart/form-data">
     {% csrf_token %}
-{#    Audio File: <input type="file" name="audio_file">#}
-{#    <input type="submit" name="submit_button" value="Run">#}
-    {{ form }}
-    <input type="submit" name="submit_button" value="Submit">
+    <input type="file" name="document">
+    <button type="submit">Submit</button>
 </form>
-<p>{{ output }}</p>
-
-
-
+<h1>Sentiment: {{ output }} </h1>
 </body>
 </html>

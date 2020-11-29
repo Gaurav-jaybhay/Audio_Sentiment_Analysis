@@ -12,7 +12,7 @@
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">Audio Sentiment Analysis</a>
+      <a class="navbar-brand" href="{% url 'Analyze' %}">Audio Sentiment Analysis</a>
     </div>
     <ul class="nav navbar-nav">
       <li class='{% if active_tab == 'Analyze' %}active{% endif %}'><a href="{% url 'Analyze' %}">Analyze</a></li>

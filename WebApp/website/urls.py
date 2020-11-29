@@ -6,3 +6,4 @@ urlpatterns = [
     path('record', views.record, name="Record"),
     path('about', views.about, name="About"),
 ]
+

@@ -1,23 +1,22 @@
 from django.shortcuts import render
-from django.http import HttpResponseRedirect
+from django.http import HttpResponse
 import librosa
 import soundfile
 import numpy as np
 import pickle
-from .form import AudioForm
+from django.core.files.storage import FileSystemStorage
 
 
-def analyze(req):
-    pkl_filename = "Emotion_Voice_Detection_Model.pkl"
-    if req.method == "POST":
-        form = AudioForm(req.POST)
-        audio = form.audio
-        output = recognise(pkl_filename, audio)
-        if form.is_valid():
-            return HttpResponseRedirect(output)
-    else:
-        form = AudioForm()
-    return render(req, 'analyzePage.html', {'form': form})
+def analyze(request):
+    context = {}
+    if request.method == 'POST':
+        uploaded_file = request.FILES['document']
+        fs = FileSystemStorage()
+        name = fs.save(uploaded_file.name, uploaded_file)
+        url = fs.path(name)
+        pkl_filename = "Emotion_Voice_Detection_Model.pkl"
+        context['output'] = recognise(pkl_filename, url)
+    return render(request, 'analyzePage.html', context)
 
 
 def record(req):

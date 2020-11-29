@@ -48,6 +48,12 @@ h2 {
   text-transform: uppercase;
 }
 
+h3 {
+  font-style: normal;
+  text-align: center;
+  font-weight: bold;
+}
+
 red {
   color: red;
 }
@@ -75,6 +81,7 @@ button {
   color:#ffffff;
   font-weight: bold;
   font-size: 1.5rem;
+
 }
 
 button:hover, button:focus {
@@ -133,3 +140,12 @@ li {
 #audio {
     text-align: center;
   }
+
+.form-flex {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-self: center;
+}
