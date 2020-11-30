@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="66f7687b-725a-4f06-ae7b-4182564c39b4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JupyterTrust" id="338f94d0-7983-4a26-aafa-15c21a2e3445" />
+  <component name="ProjectId" id="1kT6lxxVwOgJoRZUxP7xHVfCOoi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/image" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.menu.html">
+    <configuration name="analyzePage.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/WebApp/templates/analyzePage.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="menu.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/WebApp/templates/menu.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.menu.html" />
+        <item itemvalue="JavaScript Debug.analyzePage.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="66f7687b-725a-4f06-ae7b-4182564c39b4" name="Default Changelist" comment="" />
+      <created>1605712400739</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605712400739</updated>
+      <workItem from="1605712404859" duration="3301000" />
+      <workItem from="1605844752822" duration="2780000" />
+      <workItem from="1606017197988" duration="15383000" />
+      <workItem from="1606111501859" duration="3456000" />
+      <workItem from="1606633860600" duration="3590000" />
+      <workItem from="1606657023065" duration="9920000" />
+      <workItem from="1606674959227" duration="1975000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1115" y="341" width="676" height="431" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606676433481">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="1115" y="341" width="676" height="431" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1606676433481" />
+    <state x="201" y="244" width="655" height="625" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606658031686">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="201" y="244" width="655" height="625" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1606658031686" />
+    <state x="172" y="127" width="1648" height="853" key="DiffContextDialog" timestamp="1605713268257">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="172" y="127" width="1648" height="853" key="DiffContextDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1605713268257" />
+    <state x="726" y="254" width="530" height="605" key="FileChooserDialogImpl" timestamp="1606718294223">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="726" y="254" width="530" height="605" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1606718294223" />
+    <state width="304" height="551" key="HiddenNamespacesPopup" timestamp="1605845113325">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="304" height="551" key="HiddenNamespacesPopup/72.27.1848.1053@72.27.1848.1053" timestamp="1605845113325" />
+    <state x="485" y="168" width="1125" height="912" key="SettingsEditor" timestamp="1605713101403">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="485" y="168" width="1125" height="912" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1605713101403" />
+    <state x="872" y="243" width="237" height="627" key="VCS.ChangeListViewerDialog" timestamp="1605713146702">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="872" y="243" width="237" height="627" key="VCS.ChangeListViewerDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1605713146702" />
+    <state x="575" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1606634522979">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="575" y="45" width="840" height="1034" key="search.everywhere.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1606634522979" />
+  </component>
+</project>
