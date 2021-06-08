@@ -47,7 +47,7 @@ olefile==0.46
 packaging==20.4
 paramiko==2.6.0
 pexpect==4.6.0
-Pillow==7.0.0
+Pillow==8.2.0
 pooch==1.2.0
 protobuf==3.6.1
 PyAudio==0.2.11
