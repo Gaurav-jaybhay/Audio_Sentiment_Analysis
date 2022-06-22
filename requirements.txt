@@ -41,7 +41,7 @@ matplotlib==3.3.3
 monotonic==1.5
 netifaces==0.10.4
 numba==0.51.2
-numpy==1.19.4
+numpy==1.22.0
 oauthlib==3.1.0
 olefile==0.46
 packaging==20.4
